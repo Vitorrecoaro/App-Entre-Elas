@@ -8,7 +8,7 @@ class TelaConversa extends StatelessWidget {
         title: Text("Conversa"),
       ),
       body: Center(
-        child: RaisedButton(
+        child: ElevatedButton(
           onPressed: () {
             Navigator.pop(context);
           },

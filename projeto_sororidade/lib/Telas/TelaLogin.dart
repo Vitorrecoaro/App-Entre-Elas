@@ -10,10 +10,10 @@ class LoginPage extends StatefulWidget {
 class LoginTela extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold( 
+    return Scaffold(
       body: Container(
         padding: EdgeInsets.only(
-          top: 150, 
+          top: 150,
           left: 40,
           right: 40,
         ),
@@ -62,13 +62,12 @@ class LoginTela extends State<LoginPage> {
                       borderRadius: new BorderRadius.circular(30.0)),
                   color: Colors.red,
                   child: Text(
-                    "conectar com google", 
+                    "conectar com google",
                     style: TextStyle(color: Colors.white, fontSize: 22.0),
                   ),
                 ),
               ),
             ),
-
           ],
         ),
       ),
